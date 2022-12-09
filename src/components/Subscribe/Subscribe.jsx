@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 function Subscribe() {
   return (
-    <div>
+    <Overlap>
       <Wrapper>
         <Header>Отримайте 10% знижку на нову колекцію!</Header>
         <Inner>
@@ -29,11 +29,15 @@ function Subscribe() {
           </Politics>
         </Inner>
       </Wrapper>
-    </div>
+    </Overlap>
   )
 }
 
 export default Subscribe;
+
+const Overlap = styled.div`
+  border-bottom: 4px solid #9E2C20;
+`;
 
 const Wrapper = styled.div`
   width: 800px;
