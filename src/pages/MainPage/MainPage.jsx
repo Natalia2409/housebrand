@@ -4,6 +4,7 @@ import Discount from '../../components/Discount';
 import News from '../../components/News';
 import Clothes from '../../components/Clothes';
 import Jackets from "../../components/Jackets";
+import Subscribe from '../../components/Subscribe';
 
 function MainPage() {
   return (
@@ -12,6 +13,7 @@ function MainPage() {
       <News />
       <Clothes />
       <Jackets />
+      <Subscribe />
     </div>
   )
 }
