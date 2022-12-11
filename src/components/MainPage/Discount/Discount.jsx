@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import bg from '../../assets/bg.webp';
+import bg from '../../../assets/bg.webp';
 
 function Discount() {
   return (

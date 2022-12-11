@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import logo from '../../assets/logo.svg';
-import search from '../../assets/search.png';
-import flag from '../../assets/flag.png';
-import account from '../../assets/account.png';
-import basket from '../../assets/basket.png';
+import logo from '../../../assets/logo.svg';
+import search from '../../../assets/search.png';
+import flag from '../../../assets/flag.png';
+import account from '../../../assets/account.png';
+import basket from '../../../assets/basket.png';
 
 function Header() {
   return (

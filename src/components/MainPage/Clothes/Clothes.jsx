@@ -1,11 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import clothes1 from '../../assets/clothes1.webp';
-import clothes2 from '../../assets/clothes2.webp';
-import clothes3 from '../../assets/clothes3.webp';
-import clothes4 from '../../assets/clothes4.webp';
-import clothes5 from '../../assets/clothes5.webp';
+import clothes1 from '../../../assets/clothes1.webp';
+import clothes2 from '../../../assets/clothes2.webp';
+import clothes3 from '../../../assets/clothes3.webp';
+import clothes4 from '../../../assets/clothes4.webp';
+import clothes5 from '../../../assets/clothes5.webp';
 
 function Clothes() {
   return (

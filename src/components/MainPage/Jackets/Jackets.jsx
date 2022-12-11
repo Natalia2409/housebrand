@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import jacket1 from '../../assets/jacket1.webp';
-import jacket2 from '../../assets/jacket2.webp';
-import both from '../../assets/both.jpg';
+import jacket1 from '../../../assets/jacket1.webp';
+import jacket2 from '../../../assets/jacket2.webp';
+import both from '../../../assets/both.jpg';
 
 function Jackets() {
   return (

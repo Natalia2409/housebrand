@@ -1,17 +1,19 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import facebook from '../../assets/facebook.png';
-import instagram from '../../assets/instagram.png';
-import tiktok from '../../assets/tiktok.png';
-import youtube from '../../assets/youtube.png';
+import { Link } from 'react-router-dom';
+
+import facebook from '../../../assets/facebook.png';
+import instagram from '../../../assets/instagram.png';
+import tiktok from '../../../assets/tiktok.png';
+import youtube from '../../../assets/youtube.png';
 
 function Footer() {
   return (
     <Wrapper>
       <WrapperRow>
         <Block>
-          <HeaderClickable>Допомога та контакт</HeaderClickable>
+          <Link to="/help"><HeaderClickable>Допомога та контакт</HeaderClickable></Link>
           <List>
             <li>Таблиця розмірів</li>
             <li>Запитання-відповіді</li>
@@ -48,7 +50,7 @@ function Footer() {
               </a>
             </ul>
             <ul>
-              <a href="https://www.instagram.com/house_brand/#" target="_blank" rel="noreferrer">
+              <a href="src/components/MainPage/Footer/Footer#" target="_blank" rel="noreferrer">
                 <img src={instagram} alt="instagram" />
               </a>
             </ul>
@@ -91,6 +93,10 @@ export default Footer;
 const Wrapper = styled.div`
   width: 100%;
   padding: 60px 40px 40px;
+  
+  a {
+    text-decoration: none;
+  }
 `;
 
 const WrapperRow = styled.div`
