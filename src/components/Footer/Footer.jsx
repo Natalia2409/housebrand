@@ -11,7 +11,7 @@ function Footer() {
     <Wrapper>
       <WrapperRow>
         <Block>
-          <Header>Допомога та контакт</Header>
+          <HeaderClickable>Допомога та контакт</HeaderClickable>
           <List>
             <li>Таблиця розмірів</li>
             <li>Запитання-відповіді</li>
@@ -145,6 +145,16 @@ const IconList = styled.ul`
     &:hover {
       cursor: pointer;
     }
+  }
+`;
+
+const HeaderClickable = styled.h5`
+  color: #306FA3;
+  margin-bottom: 20px;
+  
+  &:hover {
+    cursor: pointer;
+    color: red;
   }
 `;
 
